@@ -1,9 +1,14 @@
-# Playing with API Interviews
+# Playing with Interviews
 
-This project explores the various ways a developer can invoke a screen flow.
+This project explores the various ways a developer can utilize screen flows.
 
-## Challenge
+## Invoke & Pass
 
-The primary focus of this project is to see if it is possible to:
+The first challenge project is to see if it is possible to:
 1) Invoke a screen flow from a non-lightning object (Task, for instance) from a button on the record page.
 2) Pass the sObject Id to the flow via the button.
+
+Solution:
+1) Create a Screen Flow with the [special recordId variable](https://youtu.be/n3S1zHL_AnQ?t=78).
+2) Wire it to an Action Button.
+3) Add the action button to the layout (assigned via Salesforce Mobile and Lightning Experience Actions).

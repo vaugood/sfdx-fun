@@ -1,4 +1,4 @@
-# Playing with Interviews
+# Playing with Screen Flow
 
 This project explores the various ways a developer can utilize screen flows.
 
